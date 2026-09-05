@@ -1,0 +1,6 @@
+{
+  "name": "iFurnish",
+  "description": "Premium UK furniture store specializing in wardrobe sets, beds, and sofas with Free Delivery and Cash on Delivery across England, Wales & Glasgow.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    background-color: #FAF8F3;
+    color: #2B2B2B;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    letter-spacing: -0.02em;
+  }
+}
+
+/* Custom Utilities for Brand Colors & Clean Minimalism Theme */
+:root {
+  --color-gold: #E8B63D;
+  --color-gold-hover: #D4A32E;
+  --color-orange: #F39A1F;
+  --color-walnut: #8A5A2B;
+  --color-coffee: #B07A45;
+  --color-bg-primary: #FAF8F3;
+  --color-bg-secondary: #FFFDF9;
+  --color-beige: #F5F1E8;
+  --color-text-dark: #2B2B2B;
+  --color-text-secondary: #555555;
+  --color-border-light: #F5F1E8;
+  --color-success: #4CAF50;
+  --color-danger: #E53935;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F5F1E8;
+}
+::-webkit-scrollbar-thumb {
+  background: #B07A45;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8A5A2B;
+}
+
+/* Minimalist Clean Shadows */
+.gold-shadow {
+  box-shadow: 0 8px 24px -6px rgba(232, 182, 61, 0.2);
+}
+
+.gold-shadow-hover:hover {
+  box-shadow: 0 16px 32px -8px rgba(232, 182, 61, 0.3);
+  transform: translateY(-2px);
+}
+
+.luxury-card {
+  background-color: #FFFFFF;
+  border: 1px solid #F5F1E8;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.luxury-card:hover {
+  border-color: rgba(232, 182, 61, 0.4);
+  box-shadow: 0 12px 28px -6px rgba(43, 43, 43, 0.06);
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
